@@ -1,0 +1,287 @@
+/* index.html/novinky.html/forum.html */
+.navbar, .navbar-nav {
+	background-color: #222222 !important;
+	height: 50px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.logo {
+	color: white !important;
+}
+
+.nav-link {
+	color: white !important ;
+	background-color: #222222 !important;
+	font-size: 12px;
+}
+
+.nav-link:hover {
+	background-color: black !important;
+}
+
+.btn:hover {
+	color: white;
+	background-color: black !important;
+}
+
+body {
+	background-color: #7a6b60;
+}
+
+label {
+	color: #000000 !important;
+}
+
+div.body {
+	background-position-y: 50px;
+	padding-bottom: calc(10rem - 4.5rem);
+	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("images/forum_home_background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.body h1, div.body .h1 {
+	font-size: 5rem;
+	color: white;
+}
+
+.text-css {
+	font-size: 20px !important;
+	text-align: center;
+	color: white !important;
+}
+
+.alert-css {
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+}
+
+.btn-align {
+	text-align: center;
+}
+
+.btn {
+	color: #ffffff;
+	background-color: #222222;
+	font-size: 15px;
+	align-content: center;
+}
+
+.login-btn {
+	text-align: center;
+	width: 6rem;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 100px;
+}
+
+/* table, table-text je v html zakomentovane (nepouziva sa) */
+.table {
+	background-color: rgba(92, 77, 66,0.6);
+	color: white;
+}
+
+.table-text {
+	font-size: 20px !important;
+}
+
+/* Searching input forum.html */
+.search {
+	padding-top: 70px !important;
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+	
+    height: 40px;
+    text-indent: 25px;
+    border: 2px solid #7c6c6c;
+	background-color: rgba(92, 77, 66, 0.8);
+	color: white;
+}
+
+::placeholder {
+	color: white !important; 
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid rgb(63, 52, 44);
+	background-color: rgb(126, 106, 93);
+	color: white;
+}
+
+.search button {
+	padding-top: 70px !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 110px;
+    background: #222222;
+}
+
+/* ----- card novinky.html/forum.html ----- */
+.card-group {
+	width: 70rem;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.card {
+	padding: 25px 25px 25px 25px !important;
+	background-color: rgba(207, 207, 207, 0.822);
+}
+
+.card-text {
+	color:black !important;
+}
+
+.text-muted {
+	color: #606060 !important;
+}
+
+.more-info {
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+/* login.html */
+.h2-login {
+	font-size: 40px;
+	padding-top: 80px;
+	text-align: center ;
+}
+
+label {
+	font-size: 20px;
+	color: white;
+}
+
+.login-input {
+	background-color: rgba(92, 77, 66, 0.8);
+	border-color: rgb(126, 106, 93);
+	color: white;
+}
+.news-textarea {
+	width: 466px;
+	height: 150px;
+}
+
+.information-textarea {
+	width: 236px;
+	height: 90px;
+}
+
+.text-size {
+	font-size: 20px;
+}
+
+/* MEDIA */
+@media (min-width: 100px) {
+	div.body {
+		background-position-y: 30px;
+		height: 40vh;
+	}
+	h1 {
+		padding-top: 5rem !important;
+		font-size: 3.4rem !important;
+	}
+	.alert-css {
+		font-size: 1.25rem;
+	}
+	.text-css {
+		font-size: 1.25rem !important;
+	}
+}
+
+@media (min-width: 530px) {
+	div.body {
+		background-position-y: 30px;
+		height: 50vh;
+	}
+	h1 {
+		padding-top: 5.4rem !important;
+		font-size: 3.8rem !important;
+	}
+	.alert-css {
+		font-size: 1.30rem;
+	}
+	.text-css {
+		font-size: 1.35rem !important;
+	}
+} 
+
+
+@media (min-width: 750px) {
+	div.body {
+		background-position-y: 30px;
+		height: 60vh;
+	}
+	h1 {
+		padding-top: 5.8rem !important;
+		font-size: 4.2rem !important;
+	}
+	.alert-css {
+		font-size: 1.4rem;
+	}
+	.text-css {
+		font-size: 1.45rem !important;
+	}
+} 
+
+@media (min-width: 925px) {
+	div.body {
+		background-position-y: 30px;
+		height: 80vh;
+	}
+	h1 {
+		padding-top: 6.2rem !important;
+		font-size: 6.4rem !important;
+	}
+	.alert-css {
+		font-size: 1.5rem;
+	}
+	.text-css {
+		font-size: 1.7rem !important;
+	}
+} 
+
+@media (min-width: 990px) {
+	div.body {
+		background-position-y: 30px;
+		height: 85vh;
+	}
+	h1 {
+		padding-top: 6.2rem !important;
+		font-size: 6.0rem !important;
+	}
+	.alert-css {
+		font-size: 1.5rem;
+	}
+	.text-css {
+		font-size: 1.7rem !important;
+	}
+}
+
+@media (min-width: 1100px) {
+	div.body {
+		background-position-y: 30px;
+		height: 100vh;
+	}
+	h1 {
+		padding-top: 6.2rem !important;
+		font-size: 6.0rem !important;
+	}
+	.alert-css {
+		font-size: 1.5rem;
+	}
+	.text-css {
+		font-size: 1.7rem !important;
+	}
+}
